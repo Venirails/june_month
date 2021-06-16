@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JuneBatch</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <div id="wrap">
+  
+<div id="header">
+
+<h1>My First Rails App</h1>
+
+<div id="menu">
+
+  <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Products</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+  </ul>
+
+ 
+
+</div>
+
+</div>
+
+<div id="main">
+
+  <div id="submain">
+  
+    <div id="left">
+    
+      
+      
+          <%= yield %>
+      
+    
+            
+    </div>
+
+    <div id="right">
+  
+     
+    </div>
+  
+  </div>
+  
+</div>
+
+<div id="footer">
+
+  <div id="subfooter">
+  
+   Myapp &copy; All rights reserved
+  
+  </div>
+
+</div>
+
+</div>
+
+  </body>
+</html>

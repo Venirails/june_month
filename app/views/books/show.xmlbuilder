@@ -1,0 +1,8 @@
+xml.instruct!
+xml.books do
+  @books.each do |b|
+    xml.b do
+      xml.name 
+    end
+  end
+end
